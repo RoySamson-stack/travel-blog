@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Card from "../components/card"
 
 function Main  (){
     return (
@@ -9,7 +10,7 @@ function Main  (){
         </nav>
         <div className="main-container">
           <div className="">
-            
+            <Card />
           </div>
         </div>
       </div>
