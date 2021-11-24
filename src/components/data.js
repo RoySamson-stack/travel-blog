@@ -8,7 +8,7 @@ export default [
       link: "https://www.mountfiji.com/",
 
     },
-    image: "https://unsplash.com/photos/WLxQvbMyfas",
+    image: "../img/fiji.jpg",
     location: "Mount Fiji",
     date: "12 Jan, 2021-24 Jan, 2021",
     description:
