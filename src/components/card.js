@@ -2,16 +2,11 @@ import Data from "./data"
 import Cards from "./cards"
 
 export default function Card(){
-  const cards = Data.map((card, index) => {
+  const cards = Data.map(card => {
     return(
      <Cards
      key={card.key}
-     image={card.image}
-      country={card.info.country}
-      location={card.location}
-      date={card.date}
-      link={card.info.link}
-      description={card.description}
+   {...card}
      />
     )
   })

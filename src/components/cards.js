@@ -3,7 +3,7 @@
 export default function Cards(props) {
   return(
     <div className="card">
-      <img src={require(props.image)} alt="destination"/>
+      <img src={`../img/${props.image}`} alt="destination"/>
       <div className="card-content">
         <div className="card-grays">
           <p className="country">{props.country}</p>
